@@ -1,4 +1,4 @@
-# ネタ台本管理リポジトリ (Zipangu)
+# ネタ台本管理リポジトリ (Zipang)
 
 このリポジトリは、ネタ台本をGitでバージョン管理するためのものです。
 テキストファイル（.txt）で下書きを作成し、専用スクリプトで整形して管理します。
@@ -15,4 +15,4 @@ PowerShellターミナルで以下のコマンドを実行してください。
 成功した場合は同ディレクトリ内にformated_の接頭辞付きで整形後のファイルが作成されます。
 
 ```powershell
-.\format.ps1 .\path\to\neta_file.txt
+powershell -ExecutionPolicy Bypass -File .\format.ps1 .\path\to\neta_file.txt
